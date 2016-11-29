@@ -122,6 +122,7 @@ var AutosizeInput = React.createClass({
 		delete inputProps.inputClassName;
 		delete inputProps.inputStyle;
 		delete inputProps.minWidth;
+		delete inputProps.onAutosize;
 		delete inputProps.placeholderIsMinWidth;
 		return React.createElement(
 			'div',
